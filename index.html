@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Abraço Vital</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="cabecalho">
+  <div class="logo">
+    <img src="img/abraco.png" alt="Logo">
+    <span>ABRAÇO VITAL</span>
+  </div>
+
+  <nav class="menu">
+    <a href="#inicio">Início</a>
+    <a href="#ajudar">Como ajudar</a>
+    <a href="#noticias">Notícias</a>
+    <a href="#informacoes">Informações</a>
+  </nav>
+
+  <a href="#ajudar" class="botao-doar">Doe agora</a>
+</header>
+
+<main class="container">
+  <section id="inicio" class="banner">
+    <div class="conteudo-banner">
+      <h1>Juntos, somos mais fortes.</h1>
+
+      <p>
+        A Abraço Vital apoia vítimas de desastres naturais com doações,
+        voluntariado e acolhimento.
+      </p>
+
+      <div class="botoes-banner">
+        <a href="#ajudar" class="botao-principal">Quero ajudar</a>
+        <a href="#informacoes" class="botao-secundario">Ver informações</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="sobre">
+    <div class="texto-sobre">
+      <h2>Abraço Vital</h2>
+
+      <p>
+        Somos uma iniciativa social voltada ao apoio de comunidades afetadas por
+        enchentes, deslizamentos, tempestades e outros desastres naturais.
+      </p>
+
+      <p>
+        Nosso objetivo é conectar pessoas que precisam de apoio com voluntários,
+        doadores e informações úteis em momentos de emergência.
+      </p>
+    </div>
+
+    <div class="valores">
+      <div>
+        <h3>Acolhimento</h3>
+        <p>Oferecemos apoio inicial para famílias afetadas.</p>
+      </div>
+
+      <div>
+        <h3>Solidariedade</h3>
+        <p>Organizamos doações e ações comunitárias.</p>
+      </div>
+
+      <div>
+        <h3>Transformação</h3>
+        <p>Ajudamos na reconstrução de vidas e comunidades.</p>
+      </div>
+    </div>
+
+    <div class="impacto">
+      <h2>Nosso impacto</h2>
+
+      <div class="numeros">
+        <div>
+          <strong>8.450</strong>
+          <p>Doações entregues</p>
+        </div>
+
+        <div>
+          <strong>2.150</strong>
+          <p>Voluntários envolvidos</p>
+        </div>
+
+        <div>
+          <strong>35</strong>
+          <p>Comunidades atendidas</p>
+        </div>
+
+        <div>
+          <strong>12.600</strong>
+          <p>Pessoas beneficiadas</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="ajudar" class="ajudar">
+    <h2>Como você pode ajudar</h2>
+
+    <p>
+      Clique no botão abaixo para visualizar as formas de colaboração.
+    </p>
+
+<button id="btn-ajuda" class="btn btn-primary btn-ajuda" type="button">
+    Mostrar opções
+</button> 
+
+    <div id="opcoes-ajuda" class="cards-ajuda oculto">
+      <article class="card">
+        <h3>Faça uma doação</h3>
+
+        <p>
+          Doe alimentos, roupas, água potável, cobertores e produtos de higiene.
+        </p>
+
+<button id="btn-doacao" class="btn btn-success btn-card" type="button">          
+      Fazer doação
+        </button>
+      </article>
+
+      <article class="card">
+        <h3>Seja voluntário</h3>
+
+        <p>
+          Dedique seu tempo para ajudar na organização, separação e entrega de doações.
+        </p>
+      </article>
+
+      <article class="card">
+        <h3>Compartilhe</h3>
+
+        <p>
+          Divulgue nossas campanhas para que mais pessoas possam conhecer e ajudar.
+        </p>
+      </article>
+    </div>
+
+    <div id="form-doacao" class="form-doacao oculto">
+      <h3>Formulário de doação</h3>
+
+      <form>
+        <label for="nome">Nome completo</label>
+        <input type="text" id="nome" required>
+
+        <label for="email">E-mail</label>
+        <input type="email" id="email" required>
+
+        <label for="tipo-doacao">Tipo de doação</label>
+        <select id="tipo-doacao" required>
+          <option value="">Selecione</option>
+          <option>Alimentos</option>
+          <option>Roupas</option>
+          <option>Água potável</option>
+          <option>Produtos de higiene</option>
+          <option>Materiais de limpeza</option>
+        </select>
+
+        <label for="mensagem">Mensagem</label>
+        <textarea id="mensagem" rows="4" placeholder="Descreva o que deseja doar"></textarea>
+
+<button type="submit" class="btn btn-danger btn-enviar">
+            Enviar doação
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <section id="noticias" class="noticias">
+    <h2>Notícias</h2>
+
+    <div class="cards-noticias">
+      <article class="card">
+        <h3>Campanha de arrecadação</h3>
+
+        <p>
+          A Abraço Vital iniciou uma nova campanha para arrecadar alimentos,
+          roupas e itens de higiene.
+        </p>
+      </article>
+
+      <article class="card">
+        <h3>Voluntários em ação</h3>
+
+        <p>
+          Equipes voluntárias participam da organização e distribuição de doações
+          para famílias afetadas.
+        </p>
+      </article>
+
+      <article class="card">
+        <h3>Pontos de apoio</h3>
+
+        <p>
+          Novos pontos de apoio foram organizados para receber doações e orientar
+          pessoas em situação de emergência.
+        </p>
+      </article>
+    </div>
+  </section>
+
+  <section id="informacoes" class="informacoes">
+    <h2>Informações importantes</h2>
+
+    <ul>
+      <li>Doe apenas roupas limpas e em bom estado.</li>
+      <li>Alimentos devem estar dentro do prazo de validade.</li>
+      <li>Água potável, produtos de higiene e materiais de limpeza são prioridade.</li>
+      <li>Voluntários devem acompanhar as orientações da organização antes das ações.</li>
+    </ul>
+  </section>
+
+</main>
+
+<footer class="rodape">
+  <div>
+    <h2>ABRAÇO VITAL</h2>
+    <p>Apoiando vidas, reconstruindo histórias.</p>
+  </div>
+
+  <div>
+    <h3>Navegação</h3>
+    <p>Início</p>
+    <p>Como ajudar</p>
+    <p>Notícias</p>
+    <p>Informações</p>
+  </div>
+
+  <div>
+    <h3>Redes sociais</h3>
+    <p>Instagram: @abracovital</p>
+    <p>Facebook: Abraço Vital</p>
+    <p>WhatsApp: (11) 99999-9999</p>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
