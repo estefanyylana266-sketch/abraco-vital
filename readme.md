@@ -2,8 +2,8 @@
 
 ## Integrantes da dupla
 
-* Estefany Ilana
-* Ryan
+* Estefany Ilana Gonçalves Almeida
+* Ryan Mauricio Antunes da Silva
 
 ## Descrição do caso escolhido
 
