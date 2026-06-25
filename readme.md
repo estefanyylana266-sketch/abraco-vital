@@ -44,7 +44,8 @@ Foram realizados testes de navegação, funcionamento dos botões, carregamento 
 ## Links
 
 **Repositório:** https://estefanyylana266-sketch.github.io/abraco-vital/
-**Site publicado:** (https://estefanyylana266-sketch.github.io/abraco-vital/)
+
+**Site publicado:** https://estefanyylana266-sketch.github.io/abraco-vital/
 ## Contribuição dos integrantes
 
 **Ryan:** desenvolvimento da estrutura HTML, organização do conteúdo e implementação da estilização e funcionalidades.
