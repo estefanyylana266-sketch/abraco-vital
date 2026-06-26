@@ -1,4 +1,4 @@
-# Abraço Vital
+ # Abraço Vital
 
 ## Integrantes da dupla
 
@@ -7,47 +7,51 @@
 
 ## Descrição do caso escolhido
 
-O projeto foi desenvolvido para a iniciativa social Abraço Vital, voltada ao apoio de pessoas e comunidades afetadas por desastres naturais. O site apresenta informações sobre a organização, campanhas de doação, voluntariado e notícias.
+O projeto Abraço Vital foi desenvolvido para apoiar pessoas e comunidades afetadas por desastres naturais. O site reúne informações sobre campanhas solidárias, formas de doação, voluntariado e notícias relacionadas às ações da iniciativa.
 
 ## Necessidade identificada
 
-O site foi criado para facilitar o acesso às informações sobre campanhas de ajuda e incentivar doações e ações voluntárias. Muitas pessoas desejam ajudar, mas não sabem como ou onde contribuir.
+Foi identificada a dificuldade que muitas pessoas têm em encontrar um local confiável para realizar doações ou participar de ações voluntárias em situações de desastres naturais. O site foi criado para facilitar esse processo.
 
 ## Público-alvo
 
-Pessoas interessadas em realizar doações, atuar como voluntárias e acompanhar campanhas de apoio a vítimas de desastres naturais.
+O público-alvo é composto por pessoas interessadas em ajudar comunidades afetadas por desastres naturais por meio de doações, trabalho voluntário e divulgação de campanhas.
 
 ## Objetivo do site
 
-Divulgar a iniciativa Abraço Vital, incentivar doações e voluntariado e disponibilizar informações importantes para apoiar comunidades afetadas por desastres naturais.
+O objetivo principal é incentivar doações, promover o voluntariado e disponibilizar informações importantes sobre campanhas de apoio às vítimas de desastres naturais.
 
 ## Processo de desenvolvimento
 
-Inicialmente foi realizado o planejamento da estrutura e do conteúdo do site. Em seguida, foi desenvolvido o HTML semântico, a estilização com CSS e a funcionalidade em JavaScript. Por fim, foram realizados testes de funcionamento e responsividade.
+Inicialmente, a dupla escolheu o tema e definiu os objetivos do projeto. Em seguida, foi criada a estrutura da página em HTML, realizada a estilização com CSS e implementadas as funcionalidades em JavaScript. Também foram utilizados componentes do Bootstrap para melhorar a aparência dos botões e a organização do conteúdo. Por fim, foram realizados testes e a publicação do site no GitHub Pages.
 
 ## Principais decisões do projeto
 
-Foi utilizada uma estrutura HTML semântica para organizar o conteúdo. As cores foram escolhidas para transmitir acolhimento e solidariedade. O conteúdo foi dividido em seções para facilitar a navegação dos usuários.
+Foi utilizada uma estrutura HTML semântica para organizar melhor o conteúdo. O layout foi desenvolvido para facilitar a navegação, utilizando cores relacionadas à solidariedade e ao acolhimento. Também foram aplicadas práticas básicas de acessibilidade e responsividade para melhorar a experiência do usuário.
 
 ## Funcionalidade em JavaScript
 
-Foi implementada uma funcionalidade para mostrar e ocultar as opções de ajuda e outra para exibir o formulário de doação, tornando a navegação mais organizada e interativa.
+Foi implementada uma funcionalidade que permite exibir e ocultar as opções de ajuda e mostrar o formulário de doação, tornando a navegação mais organizada e interativa.
 
 ## Uso de Bootstrap
 
-Foi utilizado Bootstrap por meio da classe `container`, responsável pela organização do conteúdo principal da página, e das classes `btn`, `btn-primary`, `btn-success` e `btn-danger`, utilizadas para padronizar os botões do site.
+Foram utilizadas as classes `container`, `btn`, `btn-primary`, `btn-success` e `btn-danger` para organizar o conteúdo e padronizar os botões, proporcionando uma interface mais agradável e responsiva.
 
 ## Testes realizados
 
-Foram realizados testes de navegação, funcionamento dos botões, carregamento das imagens, responsividade em diferentes tamanhos de tela e funcionamento da página.
+Foram testados os links do menu, o carregamento das imagens, o funcionamento das funcionalidades em JavaScript, a responsividade em diferentes tamanhos de tela e a publicação do site no GitHub Pages.
 
 ## Links
 
-**Repositório:** https://github.com/estefanyylana266-sketch/abraco-vital
+**Link do repositório:**
+https://github.com/estefanyylana266-sketch/abraco-vital
 
-**Site publicado:** https://estefanyylana266-sketch.github.io/abraco-vital/
+**Link do site publicado:**
+https://estefanyylana266-sketch.github.io/abraco-vital/
+
 ## Contribuição dos integrantes
 
-**Ryan:** desenvolvimento da estrutura HTML, organização do conteúdo e implementação da estilização e funcionalidades.
+**Estefany Ilana Gonçalves Almeida:** planejamento do projeto, desenvolvimento do HTML e CSS, documentação, testes e publicação no GitHub.
 
-**Estefany Ilana:** desenvolvimento do CSS, testes, revisão, documentação e publicação do projeto.
+**Ryan Mauricio Antunes da Silva:** desenvolvimento do HTML, implementação do JavaScript, organização do conteúdo e revisão do projeto.
+
